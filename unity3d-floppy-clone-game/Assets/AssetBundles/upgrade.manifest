@@ -1,0 +1,32 @@
+ManifestFileVersion: 0
+CRC: 3435368088
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 3cb0ddd93fc0693cfa2cea14271b39db
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 2e18b9bda80fee31e535db579138bcd3
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 49
+  Script: {instanceID: 0}
+- Class: 212
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+Assets:
+- Assets/Resources/HotFixTest.lua.txt
+- Assets/Prefabs/TestPrefab.prefab
+- Assets/Textures/fx_lazer_cyan_dff.tif
+Dependencies: []

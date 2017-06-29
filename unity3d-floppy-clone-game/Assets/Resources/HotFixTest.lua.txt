@@ -1,0 +1,19 @@
+--[[
+xlua.hotfix(CS.Quit, 'testHotfix',  function(self)
+        print('Lua hotfix value')
+    end
+)
+--]]
+
+xlua.hotfix(CS.Quit, {
+    Update = function(self)
+        if (self:isTouched(self)) then
+            self:testHotfix()
+            --CS.UnityEngine.Application.LoadLevel("level_1");
+        end
+    end;
+
+    testHotfix = function(self)
+        print('Lua hotfix value 2')
+    end
+})

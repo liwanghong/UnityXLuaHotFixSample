@@ -1,0 +1,284 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>10.0.20506</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <RootNamespace></RootNamespace>
+    <ProjectGuid>{73F29DB4-62F1-6308-8347-BDB154EFB87F}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <AssemblyName>Assembly-CSharp-Editor</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <BaseDirectory>Assets</BaseDirectory>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Temp\bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_6_OR_NEWER;UNITY_5_6_0;UNITY_5_6;UNITY_5;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_DUCK_TYPING;ENABLE_GENERICS;ENABLE_PVR_GI;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_RUNTIME_NAVMESH_BUILDING;ENABLE_SPRITERENDERER_FLIPPING;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_RAKNET;ENABLE_UNET;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_HUB;ENABLE_CLOUD_PROJECT_ID;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_METRICS;ENABLE_EDITOR_METRICS_CACHING;ENABLE_NATIVE_ARRAY;INCLUDE_DYNAMIC_GI;INCLUDE_GI;PLATFORM_SUPPORTS_MONO;RENDER_SOFTWARE_CURSOR;INCLUDE_PUBNUB;ENABLE_PLAYMODE_TESTS_RUNNER;ENABLE_SCRIPTING_NEW_CSHARP_COMPILER;ENABLE_VIDEO;UNITY_STANDALONE_WIN;UNITY_STANDALONE;ENABLE_SUBSTANCE;ENABLE_RUNTIME_GI;ENABLE_MOVIES;ENABLE_NETWORK;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_UNITYWEBREQUEST;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_EVENT_QUEUE;ENABLE_CLUSTERINPUT;ENABLE_VR;ENABLE_WEBSOCKET_HOST;ENABLE_MONO;NET_2_0_SUBSET;ENABLE_PROFILER;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;ENABLE_NATIVE_ARRAY_CHECKS;UNITY_TEAM_LICENSE;UNITY_PRO_LICENSE;HOTFIX_ENABLE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>Temp\bin\Release\</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.XML" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="UnityEngine">
+      <HintPath>D:/Program Files/Unity/Editor/Data/Managed/UnityEngine.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor">
+      <HintPath>D:/Program Files/Unity/Editor/Data/Managed/UnityEditor.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+     <Compile Include="Assets\Editor\CBAndroidSetupUI.cs" />
+     <Compile Include="Assets\Editor\CreateAssetBundles.cs" />
+     <Compile Include="Assets\Editor\GPGSAndroidSetupUI.cs" />
+     <Compile Include="Assets\Editor\GPGSDocsUI.cs" />
+     <Compile Include="Assets\Editor\GPGSIOSSetupUI.cs" />
+     <Compile Include="Assets\Editor\GPGSProjectSettings.cs" />
+     <Compile Include="Assets\Editor\GPGSStrings.cs" />
+     <Compile Include="Assets\Editor\GPGSUpgrader.cs" />
+     <Compile Include="Assets\Editor\GPGSUtil.cs" />
+     <Compile Include="Assets\XLua\Src\Editor\Generator.cs" />
+     <Compile Include="Assets\XLua\Src\Editor\Hotfix.cs" />
+     <Compile Include="Assets\XLua\Src\Editor\LinkXmlGen\LinkXmlGen.cs" />
+     <Compile Include="Assets\XLua\Src\Editor\TemplateRef.cs" />
+     <None Include="Assets\Plugins\Android\facebook\res\values\attrs.xml" />
+     <None Include="Assets\Plugins\Android\google-play-services_lib\res\values-el\strings.xml" />
+     <None Include="Assets\Plugins\Android\facebook\res\layout\com_facebook_picker_activity_circle_row.xml" />
+     <None Include="Assets\XLua\Examples\07_AsyncTest\Resources\message_box.lua.txt" />
+     <None Include="Assets\Plugins\Android\google-play-services_lib\res\values-lv\strings.xml" />
+     <None Include="Assets\Plugins\Android\google-play-services_lib\res\values-iw\strings.xml" />
+     <None Include="Assets\Plugins\Android\google-play-services_lib\res\values-da\strings.xml" />
+     <None Include="Assets\Plugins\Android\facebook\res\values-iw\strings.xml" />
+     <None Include="Assets\XLua\Examples\06_Coroutine\Resources\cs_coroutine.lua.txt" />
+     <None Include="Assets\Plugins\Android\google-play-services_lib\res\color\common_signin_btn_text_dark.xml" />
+     <None Include="Assets\Plugins\Android\google-play-services_lib\res\values-ar\strings.xml" />
+     <None Include="Assets\Plugins\Android\facebook\res\drawable\com_facebook_picker_top_button.xml" />
+     <None Include="Assets\Plugins\Android\facebook\res\layout\com_facebook_picker_search_box.xml" />
+     <None Include="Assets\Plugins\Android\google-play-services_lib\res\values-fi\strings.xml" />
+     <None Include="Assets\Plugins\Android\facebook\res\values-ldpi\dimens.xml" />
+     <None Include="Assets\XLua\Src\Editor\LinkXmlGen\LinkXmlGen.tpl.txt" />
+     <None Include="Assets\Editor\projsettings.txt" />
+     <None Include="Assets\Plugins\Android\google-play-services_lib\res\values-uk\strings.xml" />
+     <None Include="Assets\Plugins\Android\google-play-services_lib\res\values-ro\strings.xml" />
+     <None Include="Assets\Plugins\Android\google-play-services_lib\res\values-af\strings.xml" />
+     <None Include="Assets\Plugins\Android\facebook\res\values\colors.xml" />
+     <None Include="Assets\Plugins\Android\facebook\res\layout\com_facebook_friendpickerfragment.xml" />
+     <None Include="Assets\XLua\Examples\02_U3DScripting\LuaTestScript.lua.txt" />
+     <None Include="Assets\Plugins\Android\MainLibProj\AndroidManifest.xml" />
+     <None Include="Assets\Plugins\Android\facebook\bin\proguard.txt" />
+     <None Include="Assets\XLua\Gen\Resources\hotfix_id_map.lua.txt" />
+     <None Include="Assets\Plugins\Android\google-play-services_lib\res\values-mn-rMN\strings.xml" />
+     <None Include="Assets\Plugins\Android\google-play-services_lib\res\values-zh-rTW\strings.xml" />
+     <None Include="Assets\Plugins\Android\google-play-services_lib\res\values-ja\strings.xml" />
+     <None Include="Assets\Plugins\Android\google-play-services_lib\res\color\common_signin_btn_text_light.xml" />
+     <None Include="Assets\Plugins\Android\google-play-services_lib\res\values-en-rGB\strings.xml" />
+     <None Include="Assets\Plugins\Android\facebook\res\drawable\com_facebook_top_button.xml" />
+     <None Include="Assets\Plugins\Android\google-play-services_lib\res\values-tr\strings.xml" />
+     <None Include="Assets\Plugins\Android\google-play-services_lib\res\drawable\common_signin_btn_text_light.xml" />
+     <None Include="Assets\XLua\Gen\link.xml" />
+     <None Include="Assets\Plugins\Android\google-play-services_lib\res\values-sw\strings.xml" />
+     <None Include="Assets\Plugins\Android\google-play-services_lib\res\values-fa\strings.xml" />
+     <None Include="Assets\XLua\Examples\07_AsyncTest\Resources\async_test.lua.txt" />
+     <None Include="Assets\Editor\template-AndroidManifest.txt" />
+     <None Include="Assets\XLua\Tutorial\LoadLuaScript\ByFile\Resources\byfile.lua.txt" />
+     <None Include="Assets\Plugins\Android\facebook\res\layout\com_facebook_usersettingsfragment.xml" />
+     <None Include="Assets\Plugins\Android\google-play-services_lib\res\values-es\strings.xml" />
+     <None Include="Assets\Plugins\Android\facebook\res\layout\com_facebook_picker_checkbox.xml" />
+     <None Include="Assets\Plugins\Android\facebook\bin\R.txt" />
+     <None Include="Assets\Plugins\Android\google-play-services_lib\res\values-ka-rGE\strings.xml" />
+     <None Include="Assets\Plugins\Android\BaseGameUtils\AndroidManifest.xml" />
+     <None Include="Assets\Plugins\Android\facebook\res\layout\com_facebook_picker_title_bar_stub.xml" />
+     <None Include="Assets\Plugins\Android\google-play-services_lib\res\values-sr\strings.xml" />
+     <None Include="Assets\Plugins\Android\google-play-services_lib\res\values\ads_attrs.xml" />
+     <None Include="Assets\Plugins\Android\facebook\res\values\strings.xml" />
+     <None Include="Assets\Plugins\Android\google-play-services_lib\res\values-in\strings.xml" />
+     <None Include="Assets\Resources\HotFixTest.lua.txt" />
+     <None Include="Assets\Plugins\Android\facebook\res\drawable\com_facebook_picker_item_background.xml" />
+     <None Include="Assets\Plugins\Android\facebook\res\layout\com_facebook_picker_image.xml" />
+     <None Include="Assets\Plugins\Android\google-play-services_lib\res\values-nb\strings.xml" />
+     <None Include="Assets\XLua\Examples\06_Coroutine\Resources\coruntine_test.lua.txt" />
+     <None Include="Assets\Plugins\Android\google-play-services_lib\res\values-hi\strings.xml" />
+     <None Include="Assets\XLua\Src\Editor\Template\LuaWrapPusher.tpl.txt" />
+     <None Include="Assets\Plugins\Android\google-play-services_lib\res\values\colors.xml" />
+     <None Include="Assets\XLua\Src\Editor\Template\LuaDelegateBridge.tpl.txt" />
+     <None Include="Assets\Plugins\Android\facebook\res\drawable\com_facebook_top_background.xml" />
+     <None Include="Assets\Plugins\Android\google-play-services_lib\res\values-bg\strings.xml" />
+     <None Include="Assets\Plugins\Android\facebook\res\values-hdpi\dimens.xml" />
+     <None Include="Assets\Plugins\Android\google-play-services_lib\res\values-sk\strings.xml" />
+     <None Include="Assets\Plugins\Android\facebook\build.xml" />
+     <None Include="Assets\Plugins\Android\google-play-services_lib\res\values-zu\strings.xml" />
+     <None Include="Assets\Plugins\Android\google-play-services_lib\res\values-et-rEE\strings.xml" />
+     <None Include="Assets\Plugins\Android\google-play-services_lib\res\values\maps_attrs.xml" />
+     <None Include="Assets\Plugins\Android\google-play-services_lib\res\values-lo-rLA\strings.xml" />
+     <None Include="Assets\Plugins\Android\google-play-services_lib\res\values-sl\strings.xml" />
+     <None Include="Assets\Plugins\Android\google-play-services_lib\res\values-ru\strings.xml" />
+     <None Include="Assets\Plugins\Android\google-play-services_lib\README.txt" />
+     <None Include="Assets\XLua\Resources\xlua\util.lua.txt" />
+     <None Include="Assets\Plugins\Android\google-play-services_lib\res\values-ko\strings.xml" />
+     <None Include="Assets\Editor\template-GPGSParams.txt" />
+     <None Include="Assets\Plugins\Android\facebook\res\drawable\com_facebook_button_blue.xml" />
+     <None Include="Assets\Plugins\Android\google-play-services_lib\res\values-pt-rBR\strings.xml" />
+     <None Include="Assets\Plugins\Android\google-play-services_lib\res\values-sv\strings.xml" />
+     <None Include="Assets\Plugins\Android\google-play-services_lib\res\values-am\strings.xml" />
+     <None Include="Assets\Plugins\Android\google-play-services_lib\res\values\version.xml" />
+     <None Include="Assets\Plugins\Android\google-play-services_lib\res\values-fr-rCA\strings.xml" />
+     <None Include="Assets\XLua\Examples\03_UIEvent\ButtonInteraction.lua.txt" />
+     <None Include="Assets\Plugins\Android\google-play-services_lib\res\values-it\strings.xml" />
+     <None Include="Assets\Plugins\Android\facebook\res\drawable\com_facebook_picker_list_selector.xml" />
+     <None Include="Assets\Plugins\Android\google-play-services_lib\res\values-hy-rAM\strings.xml" />
+     <None Include="Assets\Plugins\Android\google-play-services_lib\res\values-de\strings.xml" />
+     <None Include="Assets\Plugins\Android\google-play-services_lib\res\values-ca\strings.xml" />
+     <None Include="Assets\Plugins\Android\ChartboostSDK\AndroidManifest.xml" />
+     <None Include="Assets\Plugins\Android\facebook\res\layout\com_facebook_search_bar_layout.xml" />
+     <None Include="Assets\Plugins\Android\facebook\bin\AndroidManifest.xml" />
+     <None Include="Assets\Plugins\Android\google-play-services_lib\res\values-fr\strings.xml" />
+     <None Include="Assets\XLua\Src\Editor\Template\TemplateCommon.lua.txt" />
+     <None Include="Assets\XLua\Src\Editor\Template\LuaEnumWrap.tpl.txt" />
+     <None Include="Assets\Plugins\Android\google-play-services_lib\res\values-zh-rCN\strings.xml" />
+     <None Include="Assets\Plugins\Android\facebook\res\layout\com_facebook_login_activity_layout.xml" />
+     <None Include="Assets\Plugins\Android\google-play-services_lib\res\values-tl\strings.xml" />
+     <None Include="Assets\Plugins\Android\google-play-services_lib\res\values-cs\strings.xml" />
+     <None Include="Assets\Plugins\Android\google-play-services_lib\res\values-pt\strings.xml" />
+     <None Include="Assets\Plugins\Android\BaseGameUtils\res\values\gamehelper_strings.xml" />
+     <None Include="Assets\Plugins\Android\google-play-services_lib\res\values-en-rIN\strings.xml" />
+     <None Include="Assets\Plugins\Android\facebook\res\values-mdpi\dimens.xml" />
+     <None Include="Assets\Plugins\Android\google-play-services_lib\proguard.txt" />
+     <None Include="Assets\Plugins\Android\facebook\res\layout\com_facebook_picker_list_section_header.xml" />
+     <None Include="Assets\Plugins\Android\facebook\res\layout\com_facebook_picker_title_bar.xml" />
+     <None Include="Assets\Plugins\Android\google-play-services_lib\res\values-hr\strings.xml" />
+     <None Include="Assets\Plugins\Android\facebook\res\drawable\com_facebook_usersettingsfragment_background_gradient.xml" />
+     <None Include="Assets\Plugins\Android\google-play-services_lib\res\values-zh-rHK\strings.xml" />
+     <None Include="Assets\XLua\Resources\perf\profiler.lua.txt" />
+     <None Include="Assets\Plugins\Android\facebook\res\layout\com_facebook_placepickerfragment.xml" />
+     <None Include="Assets\Plugins\Android\google-play-services_lib\res\drawable\common_signin_btn_icon_dark.xml" />
+     <None Include="Assets\Plugins\Android\google-play-services_lib\res\values-pt-rPT\strings.xml" />
+     <None Include="Assets\XLua\Src\Editor\Template\LuaDelegateWrap.tpl.txt" />
+     <None Include="Assets\Plugins\Android\google-play-services_lib\res\drawable\common_signin_btn_text_dark.xml" />
+     <None Include="Assets\Plugins\Android\facebook\res\layout\com_facebook_placepickerfragment_list_row.xml" />
+     <None Include="Assets\Plugins\Android\google-play-services_lib\res\values-km-rKH\strings.xml" />
+     <None Include="Assets\Plugins\Android\google-play-services_lib\res\values-vi\strings.xml" />
+     <None Include="Assets\Plugins\Android\google-play-services_lib\res\values-nl\strings.xml" />
+     <None Include="Assets\Plugins\Android\facebook\res\values\drawables.xml" />
+     <None Include="Assets\Plugins\Android\AndroidManifest.xml" />
+     <None Include="Assets\Plugins\Android\google-play-services_lib\res\drawable\common_signin_btn_icon_light.xml" />
+     <None Include="Assets\Plugins\Android\google-play-services_lib\res\values-es-rUS\strings.xml" />
+     <None Include="Assets\XLua\Resources\perf\memory.lua.txt" />
+     <None Include="Assets\Plugins\Android\facebook\proguard-project.txt" />
+     <None Include="Assets\Plugins\Android\facebook\res\drawable\com_facebook_loginbutton_silver.xml" />
+     <None Include="Assets\Plugins\Android\facebook\res\drawable\com_facebook_picker_list_selector_background_transition.xml" />
+     <None Include="Assets\Plugins\Android\google-play-services_lib\AndroidManifest.xml" />
+     <None Include="Assets\XLua\Src\Editor\Template\LuaRegister.tpl.txt" />
+     <None Include="Assets\Plugins\Android\google-play-services_lib\res\values-pl\strings.xml" />
+     <None Include="Assets\XLua\Src\Editor\Template\LuaInterfaceBridge.tpl.txt" />
+     <None Include="Assets\XLua\Src\Editor\Template\LuaClassWrap.tpl.txt" />
+     <None Include="Assets\Plugins\Android\facebook\res\values-he\strings.xml" />
+     <None Include="Assets\Plugins\Android\google-play-services_lib\res\values\strings.xml" />
+     <None Include="Assets\Plugins\Android\google-play-services_lib\res\values-be\strings.xml" />
+     <None Include="Assets\Plugins\Android\facebook\AndroidManifest.xml" />
+     <None Include="Assets\Plugins\Android\facebook\res\values-es\strings.xml" />
+     <None Include="Assets\XLua\CHANGELOG.txt" />
+     <None Include="Assets\Plugins\Android\facebook\res\drawable\com_facebook_button_check.xml" />
+     <None Include="Assets\Plugins\Android\google-play-services_lib\res\values-ms-rMY\strings.xml" />
+     <None Include="Assets\Plugins\Android\google-play-services_lib\res\values-th\strings.xml" />
+     <None Include="Assets\Plugins\Android\facebook\res\layout\com_facebook_picker_list_row.xml" />
+     <None Include="Assets\Plugins\Android\google-play-services_lib\res\values-lt\strings.xml" />
+     <None Include="Assets\XLua\Resources\tdr\tdr.lua.txt" />
+     <None Include="Assets\Plugins\Android\facebook\res\values\styles.xml" />
+     <None Include="Assets\Plugins\Android\facebook\res\values-xhdpi\dimens.xml" />
+     <None Include="Assets\XLua\Src\Editor\Template\PackUnpack.tpl.txt" />
+     <None Include="Assets\Plugins\Android\google-play-services_lib\res\values-hu\strings.xml" />
+ <Reference Include="UnityEditor.Advertisements">
+ <HintPath>D:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/Advertisements/Editor/UnityEditor.Advertisements.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.UI">
+ <HintPath>D:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.UI">
+ <HintPath>D:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/Editor/UnityEditor.UI.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.Networking">
+ <HintPath>D:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.Networking">
+ <HintPath>D:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/Networking/Editor/UnityEditor.Networking.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.TestRunner">
+ <HintPath>D:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/TestRunner/Editor/UnityEditor.TestRunner.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.TestRunner">
+ <HintPath>D:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/TestRunner/UnityEngine.TestRunner.dll</HintPath>
+ </Reference>
+ <Reference Include="nunit.framework">
+ <HintPath>D:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/TestRunner/nunit.framework.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.TreeEditor">
+ <HintPath>D:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/TreeEditor/Editor/UnityEditor.TreeEditor.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.Analytics">
+ <HintPath>D:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnityAnalytics/UnityEngine.Analytics.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.Analytics">
+ <HintPath>D:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnityAnalytics/Editor/UnityEditor.Analytics.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.HoloLens">
+ <HintPath>D:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnityHoloLens/Editor/UnityEditor.HoloLens.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.HoloLens">
+ <HintPath>D:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnityHoloLens/RuntimeEditor/UnityEngine.HoloLens.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.Purchasing">
+ <HintPath>D:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnityPurchasing/Editor/UnityEditor.Purchasing.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.VR">
+ <HintPath>D:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnityVR/Editor/UnityEditor.VR.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.VR">
+ <HintPath>D:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnityVR/RuntimeEditor/UnityEngine.VR.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.Graphs">
+ <HintPath>D:/Program Files/Unity/Editor/Data/Managed/UnityEditor.Graphs.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.Android.Extensions">
+ <HintPath>D:/Program Files/Unity/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.WindowsStandalone.Extensions">
+ <HintPath>D:/Program Files/Unity/Editor/Data/PlaybackEngines/windowsstandalonesupport/UnityEditor.WindowsStandalone.Extensions.dll</HintPath>
+ </Reference>
+ <Reference Include="GPGSUtils">
+ <HintPath>F:/workspace/unity/unity3d-floppy-clone-game/Assets/Plugins/GPGSUtils.dll</HintPath>
+ </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="Assembly-CSharp-firstpass.csproj">
+      <Project>{9E0C8209-469F-E227-1C14-FB0831F749BC}</Project>      <Name>Assembly-CSharp-firstpass</Name>    </ProjectReference>
+    <ProjectReference Include="Assembly-CSharp.csproj">
+      <Project>{A14DC204-02F1-6E48-DC3F-1383CE437BFF}</Project>      <Name>Assembly-CSharp</Name>    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  
+</Project>
